@@ -295,12 +295,12 @@
                           (0, r.jsx)("p", {
                             className: "content",
                             children:
-                              "I'm a passionate AI & Web Developer with 10 years of experience in crafting visually appealing, user-friendly web applications",
+                              "I’m a seasoned Website Developer and AI Solutions Specialist with over five years of experience designing high-performing, responsive sites that drive engagement and growth. Proficient in HTML, CSS, JavaScript, and CMS platforms such as WordPress and Shopify, I craft intuitive, SEO-friendly digital experiences aligned with business goals.",
                           }),
                           (0, r.jsx)("p", {
                             className: "content",
                             children:
-                              "My expertise includes React.js, Next Js and modern web technologies like Tailwind CSS and GSAP.",
+                              "By blending my development expertise with AI integration, I deploy intelligent tools, automated workflows, data-driven systems, and conversational agents to streamline operations and enrich customer interactions. My passion is creating future-ready solutions that boost efficiency and leave a lasting impression.",
                           }),
                           (0, r.jsxs)("div", {
                             className:
@@ -335,10 +335,10 @@
                                 }),
                               }),
                               (0, r.jsx)(x.Z, {
-                                href: "./CV.pdf",
+                                href: "mailto:dhesinm@gmail.com?subject=Request%20for%20your%20CV",
                                 target: "_blank",
                                 referrerPolicy: "no-referrer",
-                                text: "Download Resume",
+                                text: "Request My CV",
                                 hoverColor: "var(--btn-hover-color)",
                                 textColor: "var(--foreground)",
                                 hoverTxtColor: "#fff",
