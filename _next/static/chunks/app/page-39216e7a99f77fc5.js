@@ -1,1 +1,735 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{1390:function(A,e,t){Promise.resolve().then(t.bind(t,2590))},2590:function(A,e,t){"use strict";t.r(e),t.d(e,{default:function(){return E}});var r=t(7437),s=t(6430),a=t(184),o=t(281),i=t(8593),n=t(2142),l=t(3927),c=t(1457),d=t(19),h=t(7138),g=t(9582),u=t(2265),x=t(3129);let p=[{id:1,title:"Chalo Chalein",type:"- Travel Blog",img:i.Z,url:"https://chalo-chalein.vercel.app"},{id:2,title:"LinkLite",type:"- URL Shortner",img:n.Z,url:"https://urlshortener-client.vercel.app/"},{id:3,title:"Havahavai",type:"- Weather Application",img:l.Z,url:"https://havahavai.vercel.app/"},{id:4,title:"QuoteHub",type:"- Quote blog",img:c.Z,url:"https://quote-client.supasell.co.za/"}];function E(){let A=(0,u.useRef)(),e=(0,u.useRef)(),t=(0,u.useRef)();return(0,d.V)(()=>{let A=document.body.classList.contains("loaded");g.ZP.timeline().from(".blob-container",{opacity:0,scale:0,duration:.6,delay:A?0:2.5}).from(".heroTitle span",{opacity:0,y:"100%",duration:.4,ease:"power3"}).from(".heroTitle2 span, .heroTitle3 span",{opacity:0,y:"100%",duration:.4,ease:"power3"}).to(".heroTitle2 span",{x:"-10%",duration:.4,ease:"power3"},"title23").to(".heroTitle3 span",{x:"10%",fontStyle:"italic"},"title23").from(".heroFlipLink",{stagger:.1,y:30,opacity:0},"-=1.2")},{scope:A}),(0,d.V)(()=>{g.ZP.from(".small-title span",{opacity:0,skewY:7,y:"100%",duration:.6,ease:"power3",delay:.2,scrollTrigger:{trigger:e.current,start:"clamp(top 60%)"}}),g.ZP.from(".content",{opacity:0,skewY:2,y:"50%",duration:.6,ease:"power3",stagger:.3,scrollTrigger:{trigger:".content",start:"clamp(top 60%)"}}),g.ZP.from(".btn",{opacity:0,skewY:2,y:"50%",duration:.6,ease:"power3",stagger:.2,scrollTrigger:{trigger:".btn",start:"clamp(top 60%)"}})},{scope:e}),(0,d.V)(()=>{g.ZP.from(".small-title span",{opacity:0,skewY:7,y:"100%",duration:.6,ease:"power3",delay:.2,scrollTrigger:{trigger:t.current,start:"clamp(top 60%)"}}),g.ZP.from(".content",{opacity:0,skewY:2,y:"50%",duration:.6,ease:"power3",scrollTrigger:{trigger:".content",start:"clamp(top 60%)"}}),g.ZP.from(".btn",{opacity:0,skewY:2,y:"100%",duration:.6,ease:"power3",scrollTrigger:{trigger:".btn",start:"clamp(top 80%)"}})},{scope:t}),(0,r.jsxs)(r.Fragment,{children:[(0,r.jsxs)("section",{className:"pt-[73px] bg-[url('./../images/bg.png')] bg-center bg-repeat",style:{backgroundSize:"60px"},ref:A,children:[(0,r.jsxs)("div",{className:"container min-h-[calc(100svh-73px)] flex flex-col",children:[(0,r.jsxs)("div",{className:"mt-auto text-center font-oswald text-[clamp(3.3rem,1.1359rem+9.2334vw,10rem)]",children:[(0,r.jsx)("div",{className:"font-extrabold leading-none overflow-hidden heroTitle growCircle",children:(0,r.jsx)("span",{className:"inline-block",children:"DHESIN MOODLEY"})}),(0,r.jsxs)("div",{className:"font-thin leading-none growCircle",children:[(0,r.jsx)("div",{className:"overflow-hidden heroTitle2",children:(0,r.jsx)("span",{className:"inline-block px-4",children:"AI & WEB"})}),(0,r.jsx)("div",{className:"overflow-hidden heroTitle3 growCircle",children:(0,r.jsx)("span",{className:"inline-block px-4",children:"DEVELOPER"})})]})]}),(0,r.jsxs)("div",{className:"mt-auto flex items-center justify-between py-4 flex-col lg:flex-row",children:[(0,r.jsxs)("div",{className:"flex items-center gap-4",children:[(0,r.jsx)(h.default,{href:"https://github.com/ShadowLuminous",target:"_blank",referrerPolicy:"no-referrer",children:(0,r.jsx)(s.Z,{className:"heroFlipLink growCircle",children:"Github"})}),(0,r.jsx)(h.default,{href:"https://www.linkedin.com/in/dhesinmoodley/",target:"_blank",referrerPolicy:"no-referrer",children:(0,r.jsx)(s.Z,{className:"heroFlipLink growCircle",children:"LinkedIn"})}),(0,r.jsx)(h.default,{href:"mailto:dhesinm@gmail.com",children:(0,r.jsx)(s.Z,{className:"heroFlipLink growCircle",children:"Gmail"})})]}),(0,r.jsxs)("div",{className:"flex items-center gap-4",children:[(0,r.jsx)("div",{className:"heroFlipLink",children:"South Africa"}),(0,r.jsx)(a.Z,{className:"heroFlipLink"})]})]})]}),(0,r.jsxs)("div",{className:"blob-container",children:[(0,r.jsx)("div",{className:"blob blob-1"}),(0,r.jsx)("div",{className:"blob blob-2"})]})]}),(0,r.jsx)("section",{className:"section-padding bg-background",ref:e,children:(0,r.jsx)("div",{className:"container",children:(0,r.jsxs)("div",{className:"grid lg:grid-cols-3",children:[(0,r.jsx)("div",{className:"col-span-1",children:(0,r.jsx)("div",{className:"small-title overflow-hidden",children:(0,r.jsx)("span",{className:"inline-block",children:"INTRODUCTION"})})}),(0,r.jsxs)("div",{className:"col-span-2 space-y-6",children:[(0,r.jsx)("p",{className:"content",children:"I'm a passionate AI & Web Developer with 10 years of experience in crafting visually appealing, user-friendly web applications"}),(0,r.jsx)("p",{className:"content",children:"My expertise includes React.js, Next Js and modern web technologies like Tailwind CSS and GSAP."}),(0,r.jsxs)("div",{className:"flex gap-4 flex-col lg:flex-row items-start",children:[(0,r.jsx)(x.Z,{href:"./about.html",text:"More about me",hoverColor:"var(--btn-hover-color)",textColor:"var(--foreground)",hoverTxtColor:"#fff",children:(0,r.jsxs)("svg",{className:"rotate-45 w-4",xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round",children:[(0,r.jsx)("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),(0,r.jsx)("path",{d:"M17 7l-10 10"}),(0,r.jsx)("path",{d:"M8 7l9 0l0 9"})]})}),(0,r.jsx)(x.Z,{href:"./CV.pdf",target:"_blank",referrerPolicy:"no-referrer",text:"Download Resume",hoverColor:"var(--btn-hover-color)",textColor:"var(--foreground)",hoverTxtColor:"#fff",children:(0,r.jsxs)("svg",{className:"rotate-45 w-4",xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round",children:[(0,r.jsx)("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),(0,r.jsx)("path",{d:"M17 7l-10 10"}),(0,r.jsx)("path",{d:"M8 7l9 0l0 9"})]})})]})]})]})})}),(0,r.jsx)("section",{className:"section-padding bg-[var(--dark)] text-[var(--foreground)] dark:text-[var(--background)]",ref:t,children:(0,r.jsxs)("div",{className:"container",children:[(0,r.jsx)("div",{className:"small-title ",children:(0,r.jsx)("span",{className:"inline-block",children:"RECENT WORK"})}),(0,r.jsx)("div",{className:"w-full lg:w-2/5",children:(0,r.jsx)("p",{className:"content",children:"A collection of my most recent and creative web experiences"})}),(0,r.jsx)("div",{className:"grid lg:grid-cols-2 gap-12 lg:gap-18 xl:gap-24 mt-8 lg:mt-12",children:p.map(A=>(0,r.jsx)(o.Z,{work:A},A.id))}),(0,r.jsx)(x.Z,{href:"./work.html",text:"VIEW ALL PROJECTS",hoverColor:"var(--btn-hover-color)",textColor:"var(--foreground)",hoverTxtColor:"#fff",className:"mt-8 lg:mt-12",children:(0,r.jsxs)("svg",{className:"rotate-45 w-4",xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"1.25",strokeLinecap:"round",strokeLinejoin:"round",children:[(0,r.jsx)("path",{stroke:"none",d:"M0 0h24v24H0z",fill:"none"}),(0,r.jsx)("path",{d:"M17 7l-10 10"}),(0,r.jsx)("path",{d:"M8 7l9 0l0 9"})]})})]})})]})}},3129:function(A,e,t){"use strict";var r=t(7437),s=t(9582),a=t(7138),o=t(2265);e.Z=A=>{let{text:e="View more",href:t="/",color:i="#000",textColor:n="#212121",hoverColor:l="#212121",hoverTxtColor:c="#fff",borderColor:d="var(--btn-border-color)",target:h="_self",children:g,className:u}=A,x=(0,o.useRef)();return(0,o.useEffect)(()=>{let A=x.current,e=A.querySelector(".btn-fill"),t=A.querySelector(".btn-text"),r=()=>{s.ZP.to(t,{duration:.2,color:c,delay:.2}),s.ZP.to(e,{duration:.6,startAt:{y:"76%"},y:"0%",ease:"power2.inOut"})},a=()=>{s.ZP.to(t,{duration:.2,color:n,delay:.3}),s.ZP.to(e,{duration:.6,y:"-76%",ease:"power2.inOut"})};return A.addEventListener("mouseenter",r),A.addEventListener("mouseleave",a),()=>{A.removeEventListener("mouseenter",r),A.removeEventListener("mouseleave",a)}},[]),(0,r.jsxs)(a.default,{href:t,className:"btn ".concat(u),ref:x,style:{color:i,borderColor:d},target:h,children:[(0,r.jsx)("div",{className:"btn-fill",style:{backgroundColor:l}}),(0,r.jsxs)("div",{className:"btn-text inline-flex items-center gap-3",style:{color:n},children:[e," ",g]})]})}},6430:function(A,e,t){"use strict";var r=t(7437),s=t(9582),a=t(2265);e.Z=A=>{let{children:e,className:t}=A,o=(0,a.useRef)(null);return(0,r.jsxs)("div",{ref:o,className:"relative overflow-hidden whitespace-nowrap leading-none ".concat(t),onMouseEnter:()=>{s.ZP.to(o.current.children[0].children,{y:"-100%",stagger:.02,duration:.3,ease:"power2.out"}),s.ZP.to(o.current.children[1].children,{y:"-100%",stagger:.02,duration:.3,ease:"power2.out"})},onMouseLeave:()=>{s.ZP.to(o.current.children[0].children,{y:"0%",stagger:.02,duration:.3,ease:"power2.out"}),s.ZP.to(o.current.children[1].children,{y:"0%",stagger:.02,duration:.3,ease:"power2.out"})},children:[(0,r.jsx)("div",{children:e.split("").map((A,e)=>(0,r.jsx)("span",{className:"inline-block",children:A},e))}),(0,r.jsx)("div",{className:"absolute inset-0 top-full",children:e.split("").map((A,e)=>(0,r.jsx)("span",{className:"inline-block",children:A},e))})]})}},184:function(A,e,t){"use strict";var r=t(7437),s=t(2265);e.Z=A=>{let{className:e}=A,[t,a]=(0,s.useState)("");return(0,s.useEffect)(()=>{let A=()=>{let A=new Date,e=A.getHours(),t=A.getMinutes(),r=A.getSeconds(),s=e>=12?"PM":"AM";e=String(e=e%12||12).padStart(2,"0"),t=String(t).padStart(2,"0"),r=String(r).padStart(2,"0");let o=A.getTimezoneOffset(),i="GMT".concat(o<=0?"+":"-").concat(String(Math.floor(Math.abs(o)/60)).padStart(2,"0"),":").concat(String(Math.abs(o)%60).padStart(2,"0"));a("".concat(e,":").concat(t,":").concat(r," ").concat(s," ").concat(i))};A();let e=setInterval(A,1e3);return()=>clearInterval(e)},[]),(0,r.jsx)("div",{className:"loadingtxt ".concat(e),children:(0,r.jsx)("span",{children:t})})}},281:function(A,e,t){"use strict";var r=t(7437),s=t(19),a=t(6648),o=t(2265),i=t(9582),n=t(7138);e.Z=A=>{let{work:e}=A,t=(0,o.useRef)(),l=(0,o.useRef)(),c=(0,o.useRef)();return(0,s.V)(()=>{i.ZP.from(t.current,{y:50,skewY:7,opacity:0,duration:.6,ease:"power3",scrollTrigger:{trigger:t.current,start:"top+=200 bottom"}})},{scope:t}),(0,o.useEffect)(()=>{let A=c.current,e=e=>{i.ZP.to(l.current,{scale:1,opacity:1,duration:.2,delay:.1,ease:"power2"});let t=e=>{let t=A.getBoundingClientRect(),r=e.clientX-t.left,s=e.clientY-t.top;i.ZP.to(l.current,{x:r-l.current.clientWidth/2,y:s-l.current.clientHeight/2,duration:.3,ease:"power2"})};A.addEventListener("mousemove",t),A.addEventListener("mouseleave",()=>{i.ZP.to(l.current,{scale:0,opacity:0,duration:.2,delay:.1,ease:"power2.out"}),A&&A.removeEventListener("mousemove",t)})};return A&&A.addEventListener("mouseenter",e),()=>{A&&A.removeEventListener("mouseenter",e)}},[]),(0,r.jsx)("div",{className:"".concat(e.id%2?"":"lg:-translate-y-52"," relative workCard"),ref:t,children:(0,r.jsxs)(n.default,{href:e.url,target:"_blank",referrerPolicy:"no-referrer",className:"block",children:[(0,r.jsx)("div",{className:"font-roboto font-extrabold uppercase text-sm w-28 aspect-square bg-[#3d5aff] flex items-center justify-center rounded-full text-white scale-0 absolute opacity-0 pointer-events-none z-10",ref:l,children:"View"}),(0,r.jsx)(a.default,{src:e.img,width:1e3,height:750,alt:e.title,priority:!0,ref:c}),(0,r.jsxs)("div",{className:"flex items-center justify-between mt-2 text-xl",children:[(0,r.jsx)("div",{className:"uppercase font-oswald",children:e.title}),(0,r.jsx)("div",{className:"italic opacity-50",children:e.type})]})]})})}},8593:function(A,e){"use strict";e.Z={src:"/_next/static/media/work1.8d7148ab.jpg",height:750,width:1e3,blurDataURL:"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAGhBJ//xAAVEAEBAAAAAAAAAAAAAAAAAAABAv/aAAgBAQABBQJhX//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AY//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPwFb/8QAGBAAAgMAAAAAAAAAAAAAAAAAAREAEkH/2gAIAQEABj8CdysE/8QAFxAAAwEAAAAAAAAAAAAAAAAAABEhUf/aAAgBAQABPyF/4CH/2gAMAwEAAgADAAAAEAv/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QA27/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QQwL/xAAaEAEAAgMBAAAAAAAAAAAAAAABEUEAIVGB/9oACAEBAAE/EI6Uo0w9Usp8c//Z",blurWidth:8,blurHeight:6}},2142:function(A,e){"use strict";e.Z={src:"/_next/static/media/work2.52584c7a.jpg",height:750,width:1e3,blurDataURL:"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGmF//EABcQAAMBAAAAAAAAAAAAAAAAAAECBAP/2gAIAQEAAQUCabU2/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AX//xAAaEAABBQEAAAAAAAAAAAAAAAABAAMSEzFB/9oACAEBAAY/Ag7cYnmL/8QAGRABAAIDAAAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IcxA0Wgcn//aAAwDAQACAAMAAAAQ+//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAEDAQE/EAv/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/EH//xAAYEAEAAwEAAAAAAAAAAAAAAAABACEx4f/aAAgBAQABPxB6aR5gIUnZ/9k=",blurWidth:8,blurHeight:6}},3927:function(A,e){"use strict";e.Z={src:"/_next/static/media/work3.9169d698.jpg",height:750,width:1e3,blurDataURL:"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAG4A//EABYQAAMAAAAAAAAAAAAAAAAAAAMSE//aAAgBAQABBQJCU//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Bf//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Bf//EABgQAAIDAAAAAAAAAAAAAAAAAAASESIx/9oACAEBAAY/Ames4f/EABgQAAIDAAAAAAAAAAAAAAAAAAEhABFR/9oACAEBAAE/IXSs0Yn/2gAMAwEAAgADAAAAEAf/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/EH//xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAgEBPxCv/8QAGBABAAMBAAAAAAAAAAAAAAAAAQARIUH/2gAIAQEAAT8QEDpiI6ur7P/Z",blurWidth:8,blurHeight:6}},1457:function(A,e){"use strict";e.Z={src:"/_next/static/media/work4.f9a439ae.jpg",height:750,width:1e3,blurDataURL:"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGqB//EABUQAQEAAAAAAAAAAAAAAAAAAAEx/9oACAEBAAEFAqf/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AX//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAY/An//xAAWEAEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQEAAT8hFJs3/9oADAMBAAIAAwAAABDz/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB//8QAGRAAAQUAAAAAAAAAAAAAAAAAAQARITGh/9oACAEBAAE/ELtjGNC//9k=",blurWidth:8,blurHeight:6}}},function(A){A.O(0,[922,19,138,648,971,23,744],function(){return A(A.s=1390)}),_N_E=A.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [931],
+  {
+    1390: function (A, e, t) {
+      Promise.resolve().then(t.bind(t, 2590));
+    },
+    2590: function (A, e, t) {
+      "use strict";
+      t.r(e),
+        t.d(e, {
+          default: function () {
+            return E;
+          },
+        });
+      var r = t(7437),
+        s = t(6430),
+        a = t(184),
+        o = t(281),
+        i = t(8593),
+        n = t(2142),
+        l = t(3927),
+        c = t(1457),
+        d = t(19),
+        h = t(7138),
+        g = t(9582),
+        u = t(2265),
+        x = t(3129);
+      let p = [
+        {
+          id: 1,
+          title: "Chalo Chalein",
+          type: "- Travel Blog",
+          img: i.Z,
+          url: "https://chalo-chalein.vercel.app",
+        },
+        {
+          id: 2,
+          title: "LinkLite",
+          type: "- URL Shortner",
+          img: n.Z,
+          url: "https://urlshortener-client.vercel.app/",
+        },
+        {
+          id: 3,
+          title: "Havahavai",
+          type: "- Weather Application",
+          img: l.Z,
+          url: "https://havahavai.vercel.app/",
+        },
+        {
+          id: 4,
+          title: "QuoteHub",
+          type: "- Quote blog",
+          img: c.Z,
+          url: "https://quote-client.supasell.co.za/",
+        },
+      ];
+      function E() {
+        let A = (0, u.useRef)(),
+          e = (0, u.useRef)(),
+          t = (0, u.useRef)();
+        return (
+          (0, d.V)(
+            () => {
+              let A = document.body.classList.contains("loaded");
+              g.ZP.timeline()
+                .from(".blob-container", {
+                  opacity: 0,
+                  scale: 0,
+                  duration: 0.6,
+                  delay: A ? 0 : 2.5,
+                })
+                .from(".heroTitle span", {
+                  opacity: 0,
+                  y: "100%",
+                  duration: 0.4,
+                  ease: "power3",
+                })
+                .from(".heroTitle2 span, .heroTitle3 span", {
+                  opacity: 0,
+                  y: "100%",
+                  duration: 0.4,
+                  ease: "power3",
+                })
+                .to(
+                  ".heroTitle2 span",
+                  { x: "-10%", duration: 0.4, ease: "power3" },
+                  "title23"
+                )
+                .to(
+                  ".heroTitle3 span",
+                  { x: "10%", fontStyle: "italic" },
+                  "title23"
+                )
+                .from(
+                  ".heroFlipLink",
+                  { stagger: 0.1, y: 30, opacity: 0 },
+                  "-=1.2"
+                );
+            },
+            { scope: A }
+          ),
+          (0, d.V)(
+            () => {
+              g.ZP.from(".small-title span", {
+                opacity: 0,
+                skewY: 7,
+                y: "100%",
+                duration: 0.6,
+                ease: "power3",
+                delay: 0.2,
+                scrollTrigger: { trigger: e.current, start: "clamp(top 60%)" },
+              }),
+                g.ZP.from(".content", {
+                  opacity: 0,
+                  skewY: 2,
+                  y: "50%",
+                  duration: 0.6,
+                  ease: "power3",
+                  stagger: 0.3,
+                  scrollTrigger: {
+                    trigger: ".content",
+                    start: "clamp(top 60%)",
+                  },
+                }),
+                g.ZP.from(".btn", {
+                  opacity: 0,
+                  skewY: 2,
+                  y: "50%",
+                  duration: 0.6,
+                  ease: "power3",
+                  stagger: 0.2,
+                  scrollTrigger: { trigger: ".btn", start: "clamp(top 60%)" },
+                });
+            },
+            { scope: e }
+          ),
+          (0, d.V)(
+            () => {
+              g.ZP.from(".small-title span", {
+                opacity: 0,
+                skewY: 7,
+                y: "100%",
+                duration: 0.6,
+                ease: "power3",
+                delay: 0.2,
+                scrollTrigger: { trigger: t.current, start: "clamp(top 60%)" },
+              }),
+                g.ZP.from(".content", {
+                  opacity: 0,
+                  skewY: 2,
+                  y: "50%",
+                  duration: 0.6,
+                  ease: "power3",
+                  scrollTrigger: {
+                    trigger: ".content",
+                    start: "clamp(top 60%)",
+                  },
+                }),
+                g.ZP.from(".btn", {
+                  opacity: 0,
+                  skewY: 2,
+                  y: "100%",
+                  duration: 0.6,
+                  ease: "power3",
+                  scrollTrigger: { trigger: ".btn", start: "clamp(top 80%)" },
+                });
+            },
+            { scope: t }
+          ),
+          (0, r.jsxs)(r.Fragment, {
+            children: [
+              (0, r.jsxs)("section", {
+                className:
+                  "pt-[73px] bg-[url('./../images/bg.png')] bg-center bg-repeat",
+                style: { backgroundSize: "60px" },
+                ref: A,
+                children: [
+                  (0, r.jsxs)("div", {
+                    className:
+                      "container min-h-[calc(100svh-73px)] flex flex-col",
+                    children: [
+                      (0, r.jsxs)("div", {
+                        className:
+                          "mt-auto text-center font-oswald text-[clamp(3.3rem,1.1359rem+9.2334vw,10rem)]",
+                        children: [
+                          (0, r.jsx)("div", {
+                            className:
+                              "font-extrabold leading-none overflow-hidden heroTitle growCircle",
+                            children: (0, r.jsx)("span", {
+                              className: "inline-block",
+                              children: "DHESIN MOODLEY",
+                            }),
+                          }),
+                          (0, r.jsxs)("div", {
+                            className: "font-thin leading-none growCircle",
+                            children: [
+                              (0, r.jsx)("div", {
+                                className: "overflow-hidden heroTitle2",
+                                children: (0, r.jsx)("span", {
+                                  className: "inline-block px-4",
+                                  children: "AI & WEB",
+                                }),
+                              }),
+                              (0, r.jsx)("div", {
+                                className:
+                                  "overflow-hidden heroTitle3 growCircle",
+                                children: (0, r.jsx)("span", {
+                                  className: "inline-block px-4",
+                                  children: "DEVELOPER",
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      (0, r.jsxs)("div", {
+                        className:
+                          "mt-auto flex items-center justify-between py-4 flex-col lg:flex-row",
+                        children: [
+                          (0, r.jsxs)("div", {
+                            className: "flex items-center gap-4",
+                            children: [
+                              (0, r.jsx)(h.default, {
+                                href: "https://github.com/ShadowLuminous",
+                                target: "_blank",
+                                referrerPolicy: "no-referrer",
+                                children: (0, r.jsx)(s.Z, {
+                                  className: "heroFlipLink growCircle",
+                                  children: "Github",
+                                }),
+                              }),
+                              (0, r.jsx)(h.default, {
+                                href: "https://www.linkedin.com/in/dhesinmoodley/",
+                                target: "_blank",
+                                referrerPolicy: "no-referrer",
+                                children: (0, r.jsx)(s.Z, {
+                                  className: "heroFlipLink growCircle",
+                                  children: "LinkedIn",
+                                }),
+                              }),
+                              (0, r.jsx)(h.default, {
+                                href: "mailto:dhesinm@gmail.com",
+                                children: (0, r.jsx)(s.Z, {
+                                  className: "heroFlipLink growCircle",
+                                  children: "Gmail",
+                                }),
+                              }),
+                            ],
+                          }),
+                          (0, r.jsxs)("div", {
+                            className: "flex items-center gap-4",
+                            children: [
+                              (0, r.jsx)("div", {
+                                className: "heroFlipLink",
+                                children: "South Africa",
+                              }),
+                              (0, r.jsx)(a.Z, { className: "heroFlipLink" }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, r.jsxs)("div", {
+                    className: "blob-container",
+                    children: [
+                      (0, r.jsx)("div", { className: "blob blob-1" }),
+                      (0, r.jsx)("div", { className: "blob blob-2" }),
+                    ],
+                  }),
+                ],
+              }),
+              (0, r.jsx)("section", {
+                className: "section-padding bg-background",
+                ref: e,
+                children: (0, r.jsx)("div", {
+                  className: "container",
+                  children: (0, r.jsxs)("div", {
+                    className: "grid lg:grid-cols-3",
+                    children: [
+                      (0, r.jsx)("div", {
+                        className: "col-span-1",
+                        children: (0, r.jsx)("div", {
+                          className: "small-title overflow-hidden",
+                          children: (0, r.jsx)("span", {
+                            className: "inline-block",
+                            children: "INTRODUCTION",
+                          }),
+                        }),
+                      }),
+                      (0, r.jsxs)("div", {
+                        className: "col-span-2 space-y-6",
+                        children: [
+                          (0, r.jsx)("p", {
+                            className: "content",
+                            children:
+                              "I'm a passionate AI & Web Developer with 10 years of experience in crafting visually appealing, user-friendly web applications",
+                          }),
+                          (0, r.jsx)("p", {
+                            className: "content",
+                            children:
+                              "My expertise includes React.js, Next Js and modern web technologies like Tailwind CSS and GSAP.",
+                          }),
+                          (0, r.jsxs)("div", {
+                            className:
+                              "flex gap-4 flex-col lg:flex-row items-start",
+                            children: [
+                              (0, r.jsx)(x.Z, {
+                                href: "./about.html",
+                                text: "More about me",
+                                hoverColor: "var(--btn-hover-color)",
+                                textColor: "var(--foreground)",
+                                hoverTxtColor: "#fff",
+                                children: (0, r.jsxs)("svg", {
+                                  className: "rotate-45 w-4",
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  width: "24",
+                                  height: "24",
+                                  viewBox: "0 0 24 24",
+                                  fill: "none",
+                                  stroke: "currentColor",
+                                  strokeWidth: "1.25",
+                                  strokeLinecap: "round",
+                                  strokeLinejoin: "round",
+                                  children: [
+                                    (0, r.jsx)("path", {
+                                      stroke: "none",
+                                      d: "M0 0h24v24H0z",
+                                      fill: "none",
+                                    }),
+                                    (0, r.jsx)("path", { d: "M17 7l-10 10" }),
+                                    (0, r.jsx)("path", { d: "M8 7l9 0l0 9" }),
+                                  ],
+                                }),
+                              }),
+                              (0, r.jsx)(x.Z, {
+                                href: "./CV.pdf",
+                                target: "_blank",
+                                referrerPolicy: "no-referrer",
+                                text: "Download Resume",
+                                hoverColor: "var(--btn-hover-color)",
+                                textColor: "var(--foreground)",
+                                hoverTxtColor: "#fff",
+                                children: (0, r.jsxs)("svg", {
+                                  className: "rotate-45 w-4",
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  width: "24",
+                                  height: "24",
+                                  viewBox: "0 0 24 24",
+                                  fill: "none",
+                                  stroke: "currentColor",
+                                  strokeWidth: "1.25",
+                                  strokeLinecap: "round",
+                                  strokeLinejoin: "round",
+                                  children: [
+                                    (0, r.jsx)("path", {
+                                      stroke: "none",
+                                      d: "M0 0h24v24H0z",
+                                      fill: "none",
+                                    }),
+                                    (0, r.jsx)("path", { d: "M17 7l-10 10" }),
+                                    (0, r.jsx)("path", { d: "M8 7l9 0l0 9" }),
+                                  ],
+                                }),
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                }),
+              }),
+            ],
+          })
+        );
+      }
+    },
+    3129: function (A, e, t) {
+      "use strict";
+      var r = t(7437),
+        s = t(9582),
+        a = t(7138),
+        o = t(2265);
+      e.Z = (A) => {
+        let {
+            text: e = "View more",
+            href: t = "/",
+            color: i = "#000",
+            textColor: n = "#212121",
+            hoverColor: l = "#212121",
+            hoverTxtColor: c = "#fff",
+            borderColor: d = "var(--btn-border-color)",
+            target: h = "_self",
+            children: g,
+            className: u,
+          } = A,
+          x = (0, o.useRef)();
+        return (
+          (0, o.useEffect)(() => {
+            let A = x.current,
+              e = A.querySelector(".btn-fill"),
+              t = A.querySelector(".btn-text"),
+              r = () => {
+                s.ZP.to(t, { duration: 0.2, color: c, delay: 0.2 }),
+                  s.ZP.to(e, {
+                    duration: 0.6,
+                    startAt: { y: "76%" },
+                    y: "0%",
+                    ease: "power2.inOut",
+                  });
+              },
+              a = () => {
+                s.ZP.to(t, { duration: 0.2, color: n, delay: 0.3 }),
+                  s.ZP.to(e, {
+                    duration: 0.6,
+                    y: "-76%",
+                    ease: "power2.inOut",
+                  });
+              };
+            return (
+              A.addEventListener("mouseenter", r),
+              A.addEventListener("mouseleave", a),
+              () => {
+                A.removeEventListener("mouseenter", r),
+                  A.removeEventListener("mouseleave", a);
+              }
+            );
+          }, []),
+          (0, r.jsxs)(a.default, {
+            href: t,
+            className: "btn ".concat(u),
+            ref: x,
+            style: { color: i, borderColor: d },
+            target: h,
+            children: [
+              (0, r.jsx)("div", {
+                className: "btn-fill",
+                style: { backgroundColor: l },
+              }),
+              (0, r.jsxs)("div", {
+                className: "btn-text inline-flex items-center gap-3",
+                style: { color: n },
+                children: [e, " ", g],
+              }),
+            ],
+          })
+        );
+      };
+    },
+    6430: function (A, e, t) {
+      "use strict";
+      var r = t(7437),
+        s = t(9582),
+        a = t(2265);
+      e.Z = (A) => {
+        let { children: e, className: t } = A,
+          o = (0, a.useRef)(null);
+        return (0, r.jsxs)("div", {
+          ref: o,
+          className:
+            "relative overflow-hidden whitespace-nowrap leading-none ".concat(
+              t
+            ),
+          onMouseEnter: () => {
+            s.ZP.to(o.current.children[0].children, {
+              y: "-100%",
+              stagger: 0.02,
+              duration: 0.3,
+              ease: "power2.out",
+            }),
+              s.ZP.to(o.current.children[1].children, {
+                y: "-100%",
+                stagger: 0.02,
+                duration: 0.3,
+                ease: "power2.out",
+              });
+          },
+          onMouseLeave: () => {
+            s.ZP.to(o.current.children[0].children, {
+              y: "0%",
+              stagger: 0.02,
+              duration: 0.3,
+              ease: "power2.out",
+            }),
+              s.ZP.to(o.current.children[1].children, {
+                y: "0%",
+                stagger: 0.02,
+                duration: 0.3,
+                ease: "power2.out",
+              });
+          },
+          children: [
+            (0, r.jsx)("div", {
+              children: e
+                .split("")
+                .map((A, e) =>
+                  (0, r.jsx)(
+                    "span",
+                    { className: "inline-block", children: A },
+                    e
+                  )
+                ),
+            }),
+            (0, r.jsx)("div", {
+              className: "absolute inset-0 top-full",
+              children: e
+                .split("")
+                .map((A, e) =>
+                  (0, r.jsx)(
+                    "span",
+                    { className: "inline-block", children: A },
+                    e
+                  )
+                ),
+            }),
+          ],
+        });
+      };
+    },
+    184: function (A, e, t) {
+      "use strict";
+      var r = t(7437),
+        s = t(2265);
+      e.Z = (A) => {
+        let { className: e } = A,
+          [t, a] = (0, s.useState)("");
+        return (
+          (0, s.useEffect)(() => {
+            let A = () => {
+              let A = new Date(),
+                e = A.getHours(),
+                t = A.getMinutes(),
+                r = A.getSeconds(),
+                s = e >= 12 ? "PM" : "AM";
+              (e = String((e = e % 12 || 12)).padStart(2, "0")),
+                (t = String(t).padStart(2, "0")),
+                (r = String(r).padStart(2, "0"));
+              let o = A.getTimezoneOffset(),
+                i = "GMT"
+                  .concat(o <= 0 ? "+" : "-")
+                  .concat(
+                    String(Math.floor(Math.abs(o) / 60)).padStart(2, "0"),
+                    ":"
+                  )
+                  .concat(String(Math.abs(o) % 60).padStart(2, "0"));
+              a(
+                ""
+                  .concat(e, ":")
+                  .concat(t, ":")
+                  .concat(r, " ")
+                  .concat(s, " ")
+                  .concat(i)
+              );
+            };
+            A();
+            let e = setInterval(A, 1e3);
+            return () => clearInterval(e);
+          }, []),
+          (0, r.jsx)("div", {
+            className: "loadingtxt ".concat(e),
+            children: (0, r.jsx)("span", { children: t }),
+          })
+        );
+      };
+    },
+    281: function (A, e, t) {
+      "use strict";
+      var r = t(7437),
+        s = t(19),
+        a = t(6648),
+        o = t(2265),
+        i = t(9582),
+        n = t(7138);
+      e.Z = (A) => {
+        let { work: e } = A,
+          t = (0, o.useRef)(),
+          l = (0, o.useRef)(),
+          c = (0, o.useRef)();
+        return (
+          (0, s.V)(
+            () => {
+              i.ZP.from(t.current, {
+                y: 50,
+                skewY: 7,
+                opacity: 0,
+                duration: 0.6,
+                ease: "power3",
+                scrollTrigger: { trigger: t.current, start: "top+=200 bottom" },
+              });
+            },
+            { scope: t }
+          ),
+          (0, o.useEffect)(() => {
+            let A = c.current,
+              e = (e) => {
+                i.ZP.to(l.current, {
+                  scale: 1,
+                  opacity: 1,
+                  duration: 0.2,
+                  delay: 0.1,
+                  ease: "power2",
+                });
+                let t = (e) => {
+                  let t = A.getBoundingClientRect(),
+                    r = e.clientX - t.left,
+                    s = e.clientY - t.top;
+                  i.ZP.to(l.current, {
+                    x: r - l.current.clientWidth / 2,
+                    y: s - l.current.clientHeight / 2,
+                    duration: 0.3,
+                    ease: "power2",
+                  });
+                };
+                A.addEventListener("mousemove", t),
+                  A.addEventListener("mouseleave", () => {
+                    i.ZP.to(l.current, {
+                      scale: 0,
+                      opacity: 0,
+                      duration: 0.2,
+                      delay: 0.1,
+                      ease: "power2.out",
+                    }),
+                      A && A.removeEventListener("mousemove", t);
+                  });
+              };
+            return (
+              A && A.addEventListener("mouseenter", e),
+              () => {
+                A && A.removeEventListener("mouseenter", e);
+              }
+            );
+          }, []),
+          (0, r.jsx)("div", {
+            className: "".concat(
+              e.id % 2 ? "" : "lg:-translate-y-52",
+              " relative workCard"
+            ),
+            ref: t,
+            children: (0, r.jsxs)(n.default, {
+              href: e.url,
+              target: "_blank",
+              referrerPolicy: "no-referrer",
+              className: "block",
+              children: [
+                (0, r.jsx)("div", {
+                  className:
+                    "font-roboto font-extrabold uppercase text-sm w-28 aspect-square bg-[#3d5aff] flex items-center justify-center rounded-full text-white scale-0 absolute opacity-0 pointer-events-none z-10",
+                  ref: l,
+                  children: "View",
+                }),
+                (0, r.jsx)(a.default, {
+                  src: e.img,
+                  width: 1e3,
+                  height: 750,
+                  alt: e.title,
+                  priority: !0,
+                  ref: c,
+                }),
+                (0, r.jsxs)("div", {
+                  className: "flex items-center justify-between mt-2 text-xl",
+                  children: [
+                    (0, r.jsx)("div", {
+                      className: "uppercase font-oswald",
+                      children: e.title,
+                    }),
+                    (0, r.jsx)("div", {
+                      className: "italic opacity-50",
+                      children: e.type,
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          })
+        );
+      };
+    },
+    8593: function (A, e) {
+      "use strict";
+      e.Z = {
+        src: "/_next/static/media/work1.8d7148ab.jpg",
+        height: 750,
+        width: 1e3,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAGhBJ//xAAVEAEBAAAAAAAAAAAAAAAAAAABAv/aAAgBAQABBQJhX//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AY//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPwFb/8QAGBAAAgMAAAAAAAAAAAAAAAAAAREAEkH/2gAIAQEABj8CdysE/8QAFxAAAwEAAAAAAAAAAAAAAAAAABEhUf/aAAgBAQABPyF/4CH/2gAMAwEAAgADAAAAEAv/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QA27/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QQwL/xAAaEAEAAgMBAAAAAAAAAAAAAAABEUEAIVGB/9oACAEBAAE/EI6Uo0w9Usp8c//Z",
+        blurWidth: 8,
+        blurHeight: 6,
+      };
+    },
+    2142: function (A, e) {
+      "use strict";
+      e.Z = {
+        src: "/_next/static/media/work2.52584c7a.jpg",
+        height: 750,
+        width: 1e3,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGmF//EABcQAAMBAAAAAAAAAAAAAAAAAAECBAP/2gAIAQEAAQUCabU2/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AX//xAAaEAABBQEAAAAAAAAAAAAAAAABAAMSEzFB/9oACAEBAAY/Ag7cYnmL/8QAGRABAAIDAAAAAAAAAAAAAAAAAQARITFB/9oACAEBAAE/IcxA0Wgcn//aAAwDAQACAAMAAAAQ+//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAEDAQE/EAv/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/EH//xAAYEAEAAwEAAAAAAAAAAAAAAAABACEx4f/aAAgBAQABPxB6aR5gIUnZ/9k=",
+        blurWidth: 8,
+        blurHeight: 6,
+      };
+    },
+    3927: function (A, e) {
+      "use strict";
+      e.Z = {
+        src: "/_next/static/media/work3.9169d698.jpg",
+        height: 750,
+        width: 1e3,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAG4A//EABYQAAMAAAAAAAAAAAAAAAAAAAMSE//aAAgBAQABBQJCU//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Bf//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Bf//EABgQAAIDAAAAAAAAAAAAAAAAAAASESIx/9oACAEBAAY/Ames4f/EABgQAAIDAAAAAAAAAAAAAAAAAAEhABFR/9oACAEBAAE/IXSs0Yn/2gAMAwEAAgADAAAAEAf/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/EH//xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAgEBPxCv/8QAGBABAAMBAAAAAAAAAAAAAAAAAQARIUH/2gAIAQEAAT8QEDpiI6ur7P/Z",
+        blurWidth: 8,
+        blurHeight: 6,
+      };
+    },
+    1457: function (A, e) {
+      "use strict";
+      e.Z = {
+        src: "/_next/static/media/work4.f9a439ae.jpg",
+        height: 750,
+        width: 1e3,
+        blurDataURL:
+          "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wgARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGqB//EABUQAQEAAAAAAAAAAAAAAAAAAAEx/9oACAEBAAEFAqf/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AX//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAY/An//xAAWEAEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQEAAT8hFJs3/9oADAMBAAIAAwAAABDz/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB//8QAGRAAAQUAAAAAAAAAAAAAAAAAAQARITGh/9oACAEBAAE/ELtjGNC//9k=",
+        blurWidth: 8,
+        blurHeight: 6,
+      };
+    },
+  },
+  function (A) {
+    A.O(0, [922, 19, 138, 648, 971, 23, 744], function () {
+      return A((A.s = 1390));
+    }),
+      (_N_E = A.O());
+  },
+]);
