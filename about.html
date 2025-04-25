@@ -59,12 +59,7 @@
   <script>!function () { try { var d = document.documentElement, n = 'data-theme', s = 'setAttribute'; var e = localStorage.getItem('theme'); if ('system' === e || (!e && true)) { var t = '(prefers-color-scheme: dark)', m = window.matchMedia(t); if (m.media !== t || m.matches) { d.style.colorScheme = 'dark'; d[s](n, 'dark') } else { d.style.colorScheme = 'light'; d[s](n, 'light') } } else if (e) { d[s](n, e || '') } if (e === 'light' || e === 'dark') d.style.colorScheme = e } catch (e) { } }()</script>
   <div
     class="bg-[var(--foreground)] text-[var(--background)] w-full h-dvh fixed z-[11111] top-0 left-0 font-oswald preloader flex items-center justify-center pointer-events-none">
-    <div class="font-extrabold text-4xl">
-      <div class="overflow-hidden leading-[0.86]"><span class="inline-block tracking-[20px]">S</span><span
-          class="inline-block tracking-[20px]">A</span><span class="inline-block tracking-[20px]">C</span><span
-          class="inline-block tracking-[20px]">H</span><span class="inline-block tracking-[20px]">I</span><span
-          class="inline-block tracking-[20px]">N</span></div>
-    </div>
+
   </div>
   <div class="cursor w-1 h-1 bg-[var(--dark-foreground)] rounded-full fixed mix-blend-exclusion opacity-0"></div>
   <div class="cursor w-5 h-5 border border-[var(--dark-foreground)] rounded-full fixed mix-blend-exclusion opacity-0">
