@@ -366,7 +366,7 @@
                               }),
                               (0, r.jsx)(x.Z, {
                                 href: "./explore/index.html",
-                                target: "_blank",
+                                target: "_self",
                                 referrerPolicy: "no-referrer",
                                 text: "Journey Beyond My CV",
                                 hoverColor: "var(--btn-hover-color)",
