@@ -318,7 +318,22 @@
                         (0, a.jsx)("div", {
                           className: "content",
                           children:
-                            "AI Workflow Automation (Zapier, Make) | AI Sales Flows | AI Chatbots | Conversational AI | API Integrations | Prompt Engineering | HTML | CSS | JavaScript | PHP | Java | TypeScript | Bootstrap | C++ | C# | .NET | jQuery | Node.js | Express.js | React | Vue.js | AngularJS | MongoDB | MySQL | Git | CMS | WordPress | Shopify | UI/UX | Webflow | Figma | SEO | CRM | App Development | Game Development | Google Ads | Facebook/Instagram Ads | LinkedIn Ads | TikTok Ads | Social Media Management | Graphic Designing | Video Editing | L3 Technical Support | Frontend | Backend | Full-Stack | Adobe Creative Suite | Microsoft Office | English – Native Language",
+                            "AI & Automation: AI Workflow Automation (Zapier, Make), AI Sales Flows, Conversational AI, AI Chatbots, API Integrations, Prompt Engineering",
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "content",
+                          children:
+                            "Web Development: HTML, CSS, JavaScript, PHP, Java, TypeScript, Bootstrap, C++, C#, .NET, jQuery, Node.js, Express.js, React, Vue.js, AngularJS",
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "content",
+                          children:
+                            "Databases & Platforms: MongoDB, MySQL, Git, CMS, WordPress, Shopify, Webflow, Figma, UI/UX, SEO, CRM, App Development, Game Development",
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "content",
+                          children:
+                            "Marketing & Design: Google Ads, Facebook/Instagram Ads, LinkedIn Ads, TikTok Ads, Social Media Management, Graphic Design, Video Editing",
                         }),
                       ],
                     }),
