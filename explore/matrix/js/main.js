@@ -17,7 +17,7 @@ const isRunningSwiftShader = () => {
 	return renderer.toLowerCase().includes("swiftshader");
 };
 
-document.body.onload = async () => {
+document.addEventListener('DOMContentLoaded', async () => {
 	const urlParams = new URLSearchParams(window.location.search);
 	const config = makeConfig(Object.fromEntries(urlParams.entries()));
 	const useWebGPU = (await supportsWebGPU()) && ["webgpu"].includes(config.renderer?.toLowerCase());
@@ -44,4 +44,4 @@ document.body.onload = async () => {
 	} else {
 		(await solution).default(canvas, config);
 	}
-};
+});
