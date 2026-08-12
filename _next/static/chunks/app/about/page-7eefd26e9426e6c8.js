@@ -123,7 +123,7 @@
           },
         ],
         d = [
-          { id: 1, company: "Groe Global - AI Specialist & Website Developer", year: 2024 },
+          { id: 1, company: "Techy - AI Specialist & Website Developer", year: 2024 },
           {
             id: 2,
             company: "Shadow Luminous - Senior Website Developer",
